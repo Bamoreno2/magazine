@@ -7,6 +7,14 @@
     <link href="../style/first.css" rel="stylesheet">
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+        </script>
     <section class="top">
         <h1>The Power of PANTONE</h1>
         <h2>Visit your discount source at CREATAS</h2><div></div>
@@ -75,5 +83,6 @@
         <section class="heels"><p>PANTONE<br> formula guide printer edition</p>
         <h2>$69</h2></section>
     </article>
+    <div class="clear"></div>
 </body>
 </html>

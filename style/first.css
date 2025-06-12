@@ -1,14 +1,17 @@
 body{
     background-color: black;
-  
 }
 .top{
-    margin: 5px
+    margin: 5px;
+    text-align: center;
 }
 
 h1, h2, h3{
     padding-top: 2%;
     color: yellow;
+}
+h1{
+    font-size: 50px;
 }
 
 p{
@@ -19,6 +22,7 @@ p{
 
 .boots{
     display: inline;
+    align-items: center;
     background-color: rgb(37, 37, 37);
     width: 250px;
     padding: 7px;
@@ -32,6 +36,6 @@ p{
 
 .heels{
     color: white;
-    vertical-align: top;
+    /* vertical-align: top; */
     margin-left: 5px;
 }
