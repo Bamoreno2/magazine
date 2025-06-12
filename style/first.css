@@ -5,10 +5,18 @@ body{
     margin: 5px;
     text-align: center;
 }
+main{
+    display:flex;
+    justify-content: center;
+}
+
+main .pure-u-1-4{
+    flex-wrap: wrap;
+}
 
 h1, h2, h3{
     padding-top: 2%;
-    color: yellow;
+    color: rgb(255, 255, 0);
 }
 h1{
     font-size: 50px;
@@ -20,7 +28,7 @@ p{
     
 }
 
-.boots{
+/* .boots{
     display: inline;
     align-items: center;
     background-color: rgb(37, 37, 37);
@@ -28,11 +36,11 @@ p{
     padding: 7px;
     margin: 20px;
     float: left;
-}
+} */
 
-.clear{
+/* .clear{
     clear: both;
-}
+} */
 
 .heels{
     color: white;
