@@ -5,15 +5,20 @@ body{
     margin: 5px;
     text-align: center;
 }
+
 main{
-    display:flex;
-    justify-content: center;
-}
-
-main .pure-u-1-4{
+    display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
-
+.box {
+    box-sizing: 275px;
+      background: #ff5e00;
+      border: 1px solid #3b8dbd;
+      text-align: center;
+      padding: 20px;
+      margin: 5px;
+    }
 h1, h2, h3{
     padding-top: 2%;
     color: rgb(255, 255, 0);
@@ -24,26 +29,4 @@ h1{
 
 p{
     color: white;
-    padding-bottom: 2%;
-    
-}
-
-/* .boots{
-    display: inline;
-    align-items: center;
-    background-color: rgb(37, 37, 37);
-    width: 250px;
-    padding: 7px;
-    margin: 20px;
-    float: left;
-} */
-
-/* .clear{
-    clear: both;
-} */
-
-.heels{
-    color: white;
-    /* vertical-align: top; */
-    margin-left: 5px;
 }
