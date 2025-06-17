@@ -7,13 +7,14 @@ body{
 }
 
 main{
+    padding-left: 90px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 .box {
     box-sizing: 275px;
-      background: #ff5e00;
+      background: #ff8566;
       border: 1px solid #3b8dbd;
       text-align: center;
       padding: 20px;
@@ -30,3 +31,5 @@ h1{
 p{
     color: white;
 }
+
+
