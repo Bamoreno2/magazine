@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: "Noto Sans", sans-serif;
 }
 .top{
     margin: 5px;
@@ -30,6 +31,7 @@ h1{
 
 p{
     color: white;
+    
 }
 
 
