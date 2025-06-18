@@ -3,9 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Magazine 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+<style>
+    body{
+        background-color: rgb(255, 145, 0);
+        color: beige;
+        font-family: "Matangi", sans-serif;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 150px));
+      grid-auto-rows: 100px; /* 💡 Each row will be 100px tall */
+      gap: 0px;
+      padding: 5px;
+    }
+
+    .image-grid img {
+      width: auto;
+      height: 100%;
+      object-fit:contain; /* Ensures images fill grid cell properly */
+      border-radius: 0px;
+      display: block;
+      padding-top: 10px;
+    }
+    .text{
+        text-align: center;
+        margin: 10px;
+        padding: 50px;
+    }
+    footer{
+        text-align: right;
+        padding-right: 10px;
+    }
+
+  </style>
 </head>
 <body>
-    
+    <div id="nav-placeholder">
+
+    </div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+        </script>
+<main>
+  <div class="image-grid">
+    <img src="../images/1.png" alt="1">
+    <img src="../images/2.png" alt="2">
+    <img src="../images/3.png" alt="3">
+    <img src="../images/4.png" alt="4">
+  </div>
+
+  <div class="image-grid">
+    <img src="../images/6.png" alt="1">
+    <img src="../images/7.png" alt="2">
+    <img src="../images/8.png" alt="3">
+    <img src="../images/9.png" alt="4">
+    <img src="../images/10.png" alt="4">
+  </div>
+
+  <div class="image-grid">
+    <img src="../images/11.png" alt="1">
+    <img src="../images/12.png" alt="2">
+    <img src="../images/13.png" alt="3">
+    <img src="../images/14.png" alt="4">
+  </div>
+
+   <div class="image-grid">
+    <img src="../images/15.png" alt="1">
+    <img src="../images/16.png" alt="2">
+    <img src="../images/17.png" alt="3">
+  </div>
+</main>
+<section class="text">
+    <h1>HASSEL-FREE CREATIVE FREEDOM</h1>
+    <p>We have the useable, royalty-free images that will stop them in their tracks, available in three file sizes. We work the way you want to, one image at a time, or access the entire collection for one simple price.</p>
+    <p><b>High resolution-</b> 25 - 28 MB</p>
+    <p><b>Medium resolution-</b> 10 MB</p>
+    <p><b>Low resolution-</b> 15 MB</p>
+</section>
+
+<footer>
+    <h2>AbleStock.com</h2>
+    <p>www.able.stock.com</p>
+</footer>
+
 </body>
 </html>
